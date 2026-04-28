@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF4FA"
+    android:padding="24dp"
+    android:stretchColumns="0,1,2,3">
+
+    <TableRow>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B1"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B2"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B3"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B4"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_span="4"
+            android:layout_margin="4dp"
+            android:text="David"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_span="1"
+            android:layout_margin="4dp"
+            android:text="B6"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_span="1"
+            android:layout_margin="4dp"
+            android:text="B7"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B8"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B9"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B10"/>
+        <Button android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:layout_margin="4dp" android:text="B11"/>
+    </TableRow>
+
+</TableLayout>
