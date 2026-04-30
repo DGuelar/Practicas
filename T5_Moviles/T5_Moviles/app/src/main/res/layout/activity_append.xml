@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainAppend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtAppend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto construido desde XML"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnSiguienteAppend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
