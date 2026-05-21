@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LISTADOS Y MENÚS"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.1 — ListView planetas"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.2 — ListView países"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.3 — GridView países"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.4 — Spinner países"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn65"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.5 — ListView planetas complejo"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.6 — ListView BaseAdapter versiones"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.7 — GridView BaseAdapter versiones"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.8 — Spinner BaseAdapter versiones"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.9 — Menús y submenús" />
+
+    </LinearLayout>
+
+</ScrollView>
