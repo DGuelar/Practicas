@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabecera"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnCaso1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso1"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCaso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso2"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCaso3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso3"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCaso4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso4" />
+
+    <Button
+        android:id="@+id/btnAnimaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.2 — Animaciones"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCasoOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso_onclick"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCasoListener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_caso_listener"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCaso5_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_54"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCaso5_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_55"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCaso56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_56"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

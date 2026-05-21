@@ -1,0 +1,79 @@
+<resources>
+    <!-- Actividad 5.1 -->
+    <string name="app_name">ControlesBasicos</string>
+
+    <string name="btn_caso1">Caso 1: XML Bold Rojo</string>
+    <string name="btn_caso2">Caso 2: Java Italic Azul</string>
+    <string name="btn_caso3">Caso 3: Append desde Java</string>
+    <string name="btn_caso4">Caso 4: Fuente personalizada</string>
+
+    <string name="cabecera">PROGRAMACIÓN MULTIMEDIA</string>
+
+    <string name="c1_texto">Texto construido desde el XML\nTamaño 20sp, Bold y color Red</string>
+
+    <string name="c3_base">Texto construido desde XML</string>
+    <string name="c3_append">\nTexto añadido con Append desde Java</string>
+
+    <string name="c4_texto">TEXTO ESCRITO FUENTE PACIFICO</string>
+
+    <!-- Actividad 5.2 -->
+    <string name="btn_animar">▶  REPRODUCIR ANIMACIÓN</string>
+    <string name="texto_animado">¡TEXTO ANIMADO!</string>
+
+    <string-array name="lista_animaciones">
+        <item>alfa1 — Parpadeo infinito</item>
+        <item>alfa2 — Aparece y desaparece</item>
+        <item>escala1 — Crece x3</item>
+        <item>escala2 — Rebote vertical</item>
+        <item>mueve1 — Desliza a la derecha</item>
+        <item>mueve2 — Diagonal a esquina</item>
+        <item>rotar1 — Giro único 360°</item>
+        <item>rotar2 — Giro infinito</item>
+        <item>rotar3 — Ida y vuelta</item>
+        <item>varios1 — Mueve + gira</item>
+        <item>varios2 — Desvanece + gira</item>
+    </string-array>
+
+    <!-- Actividad 5.3 -->
+    <string name="btn_caso_onclick">5.3 — Botón con onClick XML</string>
+    <string name="btn_caso_listener">5.3 — Botones con Listener Java</string>
+    <string name="etiqueta_inicio">BOTÓN SIN PULSAR</string>
+    <string name="etiqueta_pulsado">BOTÓN PULSADO</string>
+    <string name="etiqueta_boton1">BOTÓN 1 PULSADO</string>
+    <string name="etiqueta_boton2">BOTÓN 2 PULSADO</string>
+    <string name="texto_boton">BOTÓN</string>
+    <string name="texto_boton1">BOTÓN 1</string>
+    <string name="texto_boton2">BOTÓN 2</string>
+
+    <!-- Actividad 5.4 -->
+    <string name="btn_54">5.4 — EditText y teclados</string>
+    <string name="label_phone">Teclado Telefónico</string>
+    <string name="hint_phone">Introduce un número de teléfono</string>
+    <string name="label_number">Teclado Numérico</string>
+    <string name="hint_number">Introduce solo números</string>
+    <string name="label_email">Teclado para Email</string>
+    <string name="hint_email">Introduce tu correo electrónico</string>
+    <string name="label_pin">Teclado de PIN</string>
+    <string name="hint_pin">Introduce tu PIN de 4 dígitos</string>
+    <string name="btn_mostrar">MOSTRAR DATOS</string>
+    <string name="resultado_vacio">Rellena al menos un campo</string>
+
+    <!-- Actividad 5.5 -->
+    <string name="btn_55">5.5 — RadioButton días</string>
+    <string name="sin_seleccion">Ningún día seleccionado</string>
+    <string name="dia_lunes">LUNES</string>
+    <string name="dia_martes">MARTES</string>
+    <string name="dia_miercoles">MIÉRCOLES</string>
+    <string name="dia_jueves">JUEVES</string>
+    <string name="dia_viernes">VIERNES</string>
+    <string name="dia_sabado">SÁBADO</string>
+    <string name="dia_domingo">DOMINGO</string>
+
+    <!-- Actividad 5.6 -->
+    <string name="btn_56">5.6 — ProgressBar</string>
+    <string name="label_circular">Tarea de duración desconocida</string>
+    <string name="label_lineal">Tarea programada: 0%</string>
+    <string name="btn_simular_carga">SIMULAR CARGA</string>
+    <string name="btn_iniciar_tarea">INICIAR TAREA</string>
+    <string name="tarea_completada">¡Tarea completada al 100%!</string>
+</resources>

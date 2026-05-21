@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabecera"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvDiaSeleccionado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sin_seleccion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:layout_marginBottom="24dp" />
+
+    <RadioGroup
+        android:id="@+id/rgDias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbLunes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_lunes" />
+
+        <RadioButton
+            android:id="@+id/rbMartes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_martes" />
+
+        <RadioButton
+            android:id="@+id/rbMiercoles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_miercoles" />
+
+        <RadioButton
+            android:id="@+id/rbJueves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_jueves" />
+
+        <RadioButton
+            android:id="@+id/rbViernes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_viernes" />
+
+        <RadioButton
+            android:id="@+id/rbSabado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_sabado" />
+
+        <RadioButton
+            android:id="@+id/rbDomingo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_domingo" />
+
+    </RadioGroup>
+
+</LinearLayout>

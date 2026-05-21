@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabecera"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="80dp" />
+
+    <!-- Esta etiqueta cambiará cuando pulsemos el botón -->
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiqueta_inicio"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/azul"
+        android:layout_marginBottom="80dp" />
+
+    <!-- android:onClick indica el método Java que se ejecutará al pulsar -->
+    <Button
+        android:id="@+id/btnPulsar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton"
+        android:onClick="alPulsar" />
+
+</LinearLayout>

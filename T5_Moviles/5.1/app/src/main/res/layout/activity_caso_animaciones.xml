@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabecera"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <!-- El texto que vamos a animar -->
+    <TextView
+        android:id="@+id/tvAnimado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_animado"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/rojo"
+        android:layout_marginBottom="50dp" />
+
+    <!-- Lista desplegable para elegir animación -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige una animación:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAnimaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/lista_animaciones"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnReproducir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_animar" />
+
+</LinearLayout>
