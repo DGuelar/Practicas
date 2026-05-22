@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIMEDIA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.1 — Resolución de pantalla"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.2 — Imagen desde Internet"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.3 — Reproductor Audio"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn114"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.4 — SoundPool"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn115"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.5 — Grabadora de Voz"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn116"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.6 — Multi-Touch"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn117"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.7 — Acelerómetro"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn118"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.8 — GPS"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn119"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.9 — Google Maps" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F0F4C3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RASTREADOR DE UBICACIÓN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/lblLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitud: Esperando..."
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/lblLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitud: Esperando..."
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/lblPrecision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precisión: --"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/lblVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Velocidad: -- km/h"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#1565C0"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/lblDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección: calculando..."
+        android:textSize="15sp"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:gravity="center" />
+
+</LinearLayout>
