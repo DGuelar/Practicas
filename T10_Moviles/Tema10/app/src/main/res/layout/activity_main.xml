@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERSISTENCIA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.2 — Ficheros memoria interna"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.4 — SQLite CRUD"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.5 — Conexión HTTP"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.8 — Content Resolver (Contactos)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.9 — Content Provider propio" />
+
+    </LinearLayout>
+
+</ScrollView>
