@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROGRAMACIÓN MULTIMEDIA"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn71"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.1 — Preferencias"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn72"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.2 — Toast"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn73"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.3 — Diálogos"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.4 — DatePicker y TimePicker"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btn75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.5 — Notificaciones" />
+
+    </LinearLayout>
+
+</ScrollView>
