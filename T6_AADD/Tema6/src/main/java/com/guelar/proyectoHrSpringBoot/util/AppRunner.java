@@ -3,7 +3,7 @@ package com.guelar.proyectoHrSpringBoot.util;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class AppRunner implements CommandLineRunner {
 
     @Override
