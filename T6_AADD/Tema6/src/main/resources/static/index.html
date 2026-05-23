@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HR Spring Boot — David Guelar</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            padding: 40px 50px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        .icon { font-size: 60px; margin-bottom: 16px; }
+        h1 { color: #1a237e; font-size: 26px; margin-bottom: 8px; }
+        .subtitle { color: #888; font-size: 14px; margin-bottom: 24px; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .info-box {
+            background: #f0f4f8;
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .info-box .label { font-size: 11px; color: #888; text-transform: uppercase; }
+        .info-box .value { font-size: 15px; font-weight: bold; color: #1a237e; margin-top: 4px; }
+        .badge {
+            display: inline-block;
+            background: #42a5f5;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+        .status {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="icon">🗄️</div>
+    <h1>Proyecto HR Spring Boot</h1>
+    <p class="subtitle">Acceso a Datos — DAM · Actividad 6.3</p>
+    <span class="status">✅ Conectado a MySQL</span>
+    <div class="info-grid">
+        <div class="info-box">
+            <div class="label">Alumno</div>
+            <div class="value">David Guelar</div>
+        </div>
+        <div class="info-box">
+            <div class="label">Base de datos</div>
+            <div class="value">hr_spring</div>
+        </div>
+        <div class="info-box">
+            <div class="label">Framework</div>
+            <div class="value">Spring Boot 4</div>
+        </div>
+        <div class="info-box">
+            <div class="label">Entidades JPA</div>
+            <div class="value">8 mapeadas</div>
+        </div>
+    </div>
+    <span class="badge">Spring Boot + Hibernate + MySQL</span>
+</div>
+</body>
+</html>
